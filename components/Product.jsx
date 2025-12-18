@@ -27,8 +27,8 @@ export const PRODUCTS = {
             name: 'Apoiador',
             id: 'apoiador',
             price: 0.01,
-            description: 'Mostre que você é um verdadeiro apoiador do Terra Média com o rank Apoiador! Com ele, você ganha um prefixo exclusivo, possibilidade de falar colorido, comando /chapéu e a satisfação de ajudar o servidor a crescer e melhorar cada vez mais.',
-            expanded_description: 'Mostre que você é um verdadeiro apoiador do Terra Média com o rank Apoiador! Com ele, você ganha um prefixo exclusivo, possibilidade de falar colorido, comando /chapéu e a satisfação de ajudar o servidor a crescer e melhorar cada vez mais. O rank Apoiador é vitalício, ou seja, você não precisa se preocupar em renovar ou perder suas vantagens. Além disso, você estará contribuindo para manter o servidor ativo, com novidades e eventos para toda a comunidade. Seja um Apoiador e faça parte dessa jornada!',
+            description: 'Mostre que você é um verdadeiro apoiador do Terra Média com o rank Apoiador! Com ele, você ganha a satisfação de ajudar o servidor a crescer e melhorar cada vez mais.',
+            expanded_description: 'Mostre que você é um verdadeiro apoiador do Terra Média com o rank Apoiador! Com ele, você ganha a satisfação de ajudar o servidor a crescer e melhorar cada vez mais. O rank Apoiador é vitalício, ou seja, você não precisa se preocupar em renovar ou perder suas vantagens. Além disso, você estará contribuindo para manter o servidor ativo, com novidades e eventos para toda a comunidade. Seja um Apoiador e faça parte dessa jornada!',
             icon: 'https://minecraft.wiki/images/Golden_Apple_JE2_BE2.png?aa827',
         },
         /*{
@@ -46,11 +46,7 @@ export const PRODUCTS = {
  * Cupons disponíveis
  */
 export const COUPONS = {
-    'JAKE': 0.10,
-    'JUAUM': 0.10,
-    'GATINHO': 0.10,
-    'GABRIEL': 0.10,
-    'DONU': 0.10
+    'EIMANESMP': 0.10
 }
 
 /**

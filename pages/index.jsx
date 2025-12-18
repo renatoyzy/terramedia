@@ -39,10 +39,9 @@ export default function Home() {
 
           <section className={styles.container}>
             <p>
-              O Terra Média é um servidor de Minecraft focado na experiência raiz do jogo, com
-              liberdade pra tudo (menos hack) e uma comunidade amigável. Aqui, você pode
-              explorar, construir e se divertir com outros jogadores em um ambiente livre,
-              justo e equilibrado.
+              O Terra Média é um servidor de Minecraft com temática de mundo antigo,
+              que implementa inúmeras mecânicas inovadoras para proporcionar uma
+              experiência única e imersiva de interação entre os reinos e os jogadores.
             </p>
           </section>
 
