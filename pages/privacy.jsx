@@ -21,7 +21,7 @@ export default function Privacy() {
 
           <div className={styles.container}>
             <p>
-              Sua privacidade é muito importante para nós. É política do SMP RAÍZ respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar em nossa loja e outros sites que operamos.
+              Sua privacidade é muito importante para nós. É política do servidor respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar em nossa loja e outros sites que operamos.
             </p>
             <p>
               Coletamos informações pessoais somente quando necessário, sempre com seu consentimento e total transparência. Explicamos claramente o motivo da coleta e como esses dados serão utilizados.

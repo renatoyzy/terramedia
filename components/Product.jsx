@@ -323,7 +323,7 @@ function ProductPopup({ product }) {
                                         </span>
                                     )}
 
-                                    <p className={styles.terms}>Ao comprar este produto você concorda com nossos <Link href={'/terms'}>Termos de Uso</Link> e <Link href={'/privacy'}>Política de privacidade</Link>.</p>
+                                    <p className={styles.terms}>Ao confirmar a compra do produto você afirma que concorda com nossos <Link href={'/terms'}>Termos de Uso</Link> e <Link href={'/privacy'}>Política de privacidade</Link>.</p>
 
                                     <div className="actions">
                                         <a onClick={close} disabled={loading}>Cancelar</a>
