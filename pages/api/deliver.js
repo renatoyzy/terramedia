@@ -37,11 +37,7 @@ function buildCommand({ player, product, extra, quantity=1 }) {
     case 'kitnether':
       return `smpstore kitnether ${player} ${quantity}`;
     case 'kitend':
-      return `smpstore kitend ${player} ${quantity}`
-    case 'apoiador':
-      return `smpstore apoiador ${player}`;
-    case 'vip1':
-      return `smpstore vip1 ${player}`;
+      return `smpstore kitend ${player} ${quantity}`;
     default:
       return `msg ${player} Obrigado pela compra no Terra Média!`;
   }
