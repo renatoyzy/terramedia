@@ -24,12 +24,12 @@ function translateStatus(status) {
  * Produtos disponíveis na loja
  */
 export const PRODUCTS = {
-    'Produtos': [
+    'Ranks': [
         {
             name: 'VIP',
             id: 'vip',
             price: 10.1,
-            description: 'O VIP é o rank mais popular do servidor, com várias vantagens legais e cosméticos interessantes',
+            description: 'O VIP é o rank mais popular do servidor, com várias vantagens legais e cosméticos interessantes.',
             expanded_description: 'O VIP é o rank mais popular do servidor, com várias vantagens legais como melhorias cosméticas, como: Conseguir colorir o nome de itens na bigorna; Utilizar Veinminer; Utilizar /armadurainvisível para ocultar armadura e também /chapéu para exibir um chapéu cosmético na cabeça, mantendo as propriedades de proteção do capacete original; Criar ImageFrames animados (GIF); Personalizar o próprio nick in-game através do /apelido; Enviar mensagens coloridas; Nick azul (única tag com nick colorido) e Liberação de partículas ao andar! Além disso, você ajuda a manter o servidor ativo e em crescimento. O VIP dura 30 dias e é renovável.',
             icon: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00',
             fields: [
@@ -44,6 +44,46 @@ export const PRODUCTS = {
             ],
         }
     ],
+    'Itens': [
+        {
+            name: 'Warp Stone',
+            id: 'warp_stone',
+            price: 5.05,
+            description: 'A Warp Stone é um item poderoso que permite teletransporte instantâneo por todo o servidor, direto para suas Waystones.',
+            expanded_description: 'A Warp Stone é um item poderoso que permite teletransporte instantâneo por todo o servidor. É ideal para jogadores que desejam se mover rapidamente entre diferentes waystones colocadas pelo mundo. A Warp Stone possui durabilidade e consome XP.',
+            icon: 'images/warp_stone.png',
+            fields: [
+                {
+                    name: 'quantity',
+                    type: 'number',
+                    placeholder: 'Quantidade (1-64)',
+                    required: true,
+                    min: 1,
+                    max: 64,
+                },
+            ],
+        }
+    ],
+    'Outros': [
+        {
+            name: 'Aumento de Barreira',
+            id: 'barreira',
+            price: 1.01,
+            description: 'Aumente o raio da barreira do mundo do servidor.',
+            expanded_description: 'Dois em um: com um real você aumenta o diâmetro da barreira do servidor em 2 blocos, sendo 1 bloco em cada direção cardinal.',
+            icon: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00',
+            fields: [
+                {
+                    name: 'quantity',
+                    type: 'number',
+                    placeholder: 'Blocos (1-100)',
+                    required: true,
+                    min: 1,
+                    max: 100,
+                },
+            ],
+        }
+    ]
 }
 
 /**
@@ -54,6 +94,7 @@ export const COUPONS = {
     'EIMANESMP': 0.00,
     'SMPRAIZ': 0.00,
     'LEGIAOTEMPLARIA': 0.00,
+    'ASAHISMP': 0.00,
     'CUBOPOLIS': 0.00
 }
 
