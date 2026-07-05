@@ -71,7 +71,7 @@ export const PRODUCTS = {
             price: 1.01,
             description: 'Aumente o raio da barreira do mundo do servidor.',
             expanded_description: 'Dois em um: com um real você aumenta o diâmetro da barreira do servidor em 2 blocos, sendo 1 bloco em cada direção cardinal.',
-            icon: 'https://minecraft.wiki/images/Diamond_JE3_BE3.png?99d00',
+            icon: 'https://minecraft.wiki/images/Cactus_JE4.png?0af5b',
             fields: [
                 {
                     name: 'quantity',

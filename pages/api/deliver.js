@@ -36,7 +36,7 @@ function buildCommand({ player, product, extra, quantity=1 }) {
   switch (product) {
     case 'vip':
       return `smpstore vip ${player} ${quantity}`;
-    case 'warpstone':
+    case 'warp_stone':
       return `smpstore warp_stone ${player} ${quantity}`;
     case 'barreira':
       return `smpstore barreira ${player} ${quantity}`;
